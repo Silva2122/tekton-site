@@ -1,0 +1,71 @@
+.viewer {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(0, 0, 0, .92);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .35s var(--ease-out);
+}
+.viewer.is-open { opacity: 1; pointer-events: auto; }
+html.is-viewer { overflow: hidden; }
+
+.viewer__stage {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  cursor: grab;
+  touch-action: none;
+}
+.viewer__stage.is-drag { cursor: grabbing; }
+.viewer__stage img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: none;
+  max-height: none;
+  width: auto;
+  height: auto;
+  margin: calc(-1 * var(--h) / 2) 0 0 calc(-1 * var(--w) / 2); /* центр = центр сцены, трансформ считается от него */
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, .6);
+  transform-origin: center;
+  will-change: transform;
+  user-select: none;
+  transition: opacity .25s var(--ease-out);
+}
+
+.viewer__bar {
+  position: absolute;
+  left: var(--gutter);
+  right: var(--gutter);
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-2);
+  pointer-events: none;
+}
+.viewer.is-open .viewer__bar > * { pointer-events: auto; }
+.viewer__title, .viewer__tools > * {
+  background: linear-gradient(180deg, rgba(20,20,24,.72), rgba(20,20,24,.6)); /* дымчатое: читается и на белом листе */
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 16px;
+  border-radius: 999px;
+  font: var(--t-ui);
+  letter-spacing: var(--ls-ui);
+  color: var(--ink);
+}
+.viewer__tools { display: flex; gap: 6px; }
+.viewer__tools button { width: 40px; padding: 0; justify-content: center; font-size: 20px; font-weight: 300; }
+.viewer__tools button[data-close] { width: auto; padding: 0 18px; font: var(--t-ui); background: var(--indigo); color: #fff; border-color: transparent; transition: background-color .35s var(--ease-out); }
+.viewer__tools button[data-close]:hover { background: #7585ff; }
+.viewer__tools span { min-width: 64px; justify-content: center; color: var(--ink-2); }
+
+@media (max-width: 760px) {
+  .viewer__title { display: none; }
+  .viewer__bar { justify-content: center; }
+}

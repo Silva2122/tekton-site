@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="1130" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="1082" fill="none" stroke="#2a2e35" stroke-width="2"/>
+  <rect x="24" y="24" width="752" height="72" fill="#f1f2f6"/>
+  <text x="48" y="56" font-size="22" font-weight="700" fill="#2a2e35">ТЕКТОН · Лист 02 — Пояснительная записка (демо)</text>
+  <text x="48" y="82" font-size="14" fill="#555a64">Структура раздела рабочего проекта. Содержание заполняется по объекту.</text>
+  <text x="400" y="620" font-size="44" font-weight="700" fill="#d8dbe1" text-anchor="middle" transform="rotate(-24 400 620)">ДЕМОНСТРАЦИОННАЯ СХЕМА</text>
+  <g font-size="16" fill="#2a2e35">
+    <text x="80" y="170">1. Исходные данные и нормативная база</text>
+    <text x="80" y="230">2. Фасадное решение и принятая система</text>
+    <text x="80" y="290">3. Материалы: кассеты, подсистема, утеплитель</text>
+    <text x="80" y="350">4. Узлы и примыкания</text>
+    <text x="80" y="410">5. Указания по производству и монтажу</text>
+    <text x="80" y="470">6. Перечень рабочих чертежей</text>
+  </g>
+  <g fill="#e7e9ee">
+    <rect x="80" y="190" width="600" height="10" rx="5"/>
+    <rect x="80" y="250" width="520" height="10" rx="5"/>
+    <rect x="80" y="310" width="560" height="10" rx="5"/>
+    <rect x="80" y="370" width="480" height="10" rx="5"/>
+    <rect x="80" y="430" width="540" height="10" rx="5"/>
+    <rect x="80" y="490" width="420" height="10" rx="5"/>
+  </g>
+  <rect x="80" y="780" width="640" height="160" fill="#f1f2f6" stroke="#2a2e35"/>
+  <text x="104" y="820" font-size="15" fill="#2a2e35">Состав выдачи фиксируется в договоре</text>
+  <text x="104" y="852" font-size="14" fill="#555a64">и зависит от сценария: по проекту здания</text>
+  <text x="104" y="880" font-size="14" fill="#555a64">или по геодезической съёмке.</text>
+  <rect x="24" y="1046" width="752" height="60" fill="#2a2e35"/>
+  <text x="400" y="1083" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Демонстрационная схема · не проектная документация</text>
+</svg>

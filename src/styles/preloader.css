@@ -1,0 +1,11 @@
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  background: var(--black);
+  display: grid;
+  place-items: center;
+  transition: opacity .6s var(--ease-out);
+  will-change: opacity;
+}
+.preloader.is-out { opacity: 0; pointer-events: none; }

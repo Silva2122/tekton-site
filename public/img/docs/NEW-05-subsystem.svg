@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="1130" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="1082" fill="none" stroke="#2a2e35" stroke-width="2"/>
+  <rect x="24" y="24" width="752" height="72" fill="#f1f2f6"/>
+  <text x="48" y="56" font-size="22" font-weight="700" fill="#2a2e35">ТЕКТОН · Лист 05 — Схемы подсистемы (демо)</text>
+  <text x="48" y="82" font-size="14" fill="#555a64">Принцип: стена — кронштейны — направляющие — кассеты. Шаги по проекту.</text>
+  <text x="400" y="620" font-size="44" font-weight="700" fill="#d8dbe1" text-anchor="middle" transform="rotate(-24 400 620)">ДЕМОНСТРАЦИОННАЯ СХЕМА</text>
+  <rect x="120" y="150" width="120" height="640" fill="#f1f2f6" stroke="#2a2e35" stroke-width="2"/>
+  <text x="180" y="820" font-size="14" fill="#555a64" text-anchor="middle">Стена</text>
+  <g stroke="#4a5ae8" stroke-width="6">
+    <line x1="240" y1="220" x2="300" y2="220"/><line x1="240" y1="420" x2="300" y2="420"/><line x1="240" y1="620" x2="300" y2="620"/>
+  </g>
+  <g stroke="#2a2e35" stroke-width="4">
+    <line x1="300" y1="170" x2="300" y2="790"/>
+    <line x1="480" y1="170" x2="480" y2="790"/>
+  </g>
+  <g fill="#c9cdda" stroke="#2a2e35" stroke-width="2">
+    <rect x="330" y="200" width="120" height="180"/><rect x="330" y="400" width="120" height="180"/><rect x="330" y="600" width="120" height="180"/>
+  </g>
+  <text x="390" y="820" font-size="14" fill="#555a64" text-anchor="middle">Направляющие и кассеты (вид с фасада, концепт)</text>
+  <g font-size="14" fill="#4a5ae8">
+    <text x="530" y="226">кронштейн, шаг по проекту</text>
+    <text x="530" y="426">кронштейн, шаг по проекту</text>
+    <text x="530" y="626">кронштейн, шаг по проекту</text>
+  </g>
+  <rect x="24" y="1046" width="752" height="60" fill="#2a2e35"/>
+  <text x="400" y="1083" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Демонстрационная схема · не проектная документация</text>
+</svg>

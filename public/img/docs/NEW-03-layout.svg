@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="1130" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="1082" fill="none" stroke="#2a2e35" stroke-width="2"/>
+  <rect x="24" y="24" width="752" height="72" fill="#f1f2f6"/>
+  <text x="48" y="56" font-size="22" font-weight="700" fill="#2a2e35">ТЕКТОН · Лист 03 — Раскладка облицовки (демо)</text>
+  <text x="48" y="82" font-size="14" fill="#555a64">Принцип разбивки фасада на кассеты. Размеры — по проекту.</text>
+  <text x="400" y="620" font-size="44" font-weight="700" fill="#d8dbe1" text-anchor="middle" transform="rotate(-24 400 620)">ДЕМОНСТРАЦИОННАЯ СХЕМА</text>
+  <g fill="#f7f8fa" stroke="#2a2e35" stroke-width="2">
+    <rect x="120" y="150" width="180" height="140"/><rect x="310" y="150" width="180" height="140"/><rect x="500" y="150" width="180" height="140"/>
+    <rect x="120" y="300" width="180" height="140"/><rect x="310" y="300" width="180" height="140"/><rect x="500" y="300" width="180" height="140"/>
+    <rect x="120" y="450" width="180" height="140"/><rect x="500" y="450" width="180" height="140"/>
+    <rect x="310" y="450" width="180" height="140" fill="#e7e9ee"/>
+    <rect x="120" y="600" width="180" height="140"/><rect x="310" y="600" width="180" height="140"/><rect x="500" y="600" width="180" height="140"/>
+    <rect x="120" y="750" width="560" height="120" fill="#e7e9ee"/>
+  </g>
+  <g stroke="#4a5ae8" stroke-width="2">
+    <line x1="120" y1="920" x2="680" y2="920"/>
+    <line x1="120" y1="908" x2="120" y2="932"/><line x1="310" y1="908" x2="310" y2="932"/><line x1="500" y1="908" x2="500" y2="932"/><line x1="680" y1="908" x2="680" y2="932"/>
+  </g>
+  <text x="215" y="960" font-size="14" fill="#4a5ae8" text-anchor="middle">модуль — по проекту</text>
+  <text x="400" y="960" font-size="14" fill="#4a5ae8" text-anchor="middle">модуль — по проекту</text>
+  <text x="590" y="960" font-size="14" fill="#4a5ae8" text-anchor="middle">модуль — по проекту</text>
+  <text x="400" y="1006" font-size="14" fill="#555a64" text-anchor="middle">Тёмный элемент — окно / дверь; тёмная полоса — цоколь</text>
+  <rect x="24" y="1046" width="752" height="60" fill="#2a2e35"/>
+  <text x="400" y="1083" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Демонстрационная схема · не проектная документация</text>
+</svg>

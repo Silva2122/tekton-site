@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="1130" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="1082" fill="none" stroke="#2a2e35" stroke-width="2"/>
+  <rect x="24" y="24" width="752" height="72" fill="#f1f2f6"/>
+  <text x="48" y="56" font-size="22" font-weight="700" fill="#2a2e35">ТЕКТОН · Лист 04 — Узлы и примыкания (демо)</text>
+  <text x="48" y="82" font-size="14" fill="#555a64">Концептуальный узел наружного угла. Решение — по рабочему проекту.</text>
+  <text x="400" y="620" font-size="44" font-weight="700" fill="#d8dbe1" text-anchor="middle" transform="rotate(-24 400 620)">ДЕМОНСТРАЦИОННАЯ СХЕМА</text>
+  <g fill="none" stroke="#2a2e35" stroke-width="2">
+    <path d="M280 180 L280 820" />
+    <path d="M240 180 L240 820" stroke-dasharray="8 6"/>
+    <path d="M520 180 L520 820" />
+    <path d="M560 180 L560 820" stroke-dasharray="8 6"/>
+  </g>
+  <g fill="#f7f8fa" stroke="#2a2e35" stroke-width="2">
+    <rect x="240" y="260" width="40" height="200"/>
+    <rect x="520" y="260" width="40" height="200"/>
+  </g>
+  <g stroke="#4a5ae8" stroke-width="3" fill="none">
+    <circle cx="280" cy="360" r="14"/>
+    <circle cx="520" cy="360" r="14"/>
+    <circle cx="400" cy="360" r="14"/>
+  </g>
+  <g stroke="#4a5ae8" stroke-width="1.5" fill="none">
+    <line x1="280" y1="360" x2="400" y2="360"/><line x1="400" y1="360" x2="520" y2="360"/>
+  </g>
+  <text x="400" y="330" font-size="15" fill="#4a5ae8" text-anchor="middle">1 · 2 · 3 — точки крепления, состав узла по проекту</text>
+  <g fill="#e7e9ee" stroke="#2a2e35" stroke-width="2">
+    <rect x="300" y="560" width="200" height="120"/>
+  </g>
+  <text x="400" y="628" font-size="14" fill="#555a64" text-anchor="middle">Примыкание к проёму (концепт)</text>
+  <g stroke="#8a8f98" stroke-width="1.5">
+    <line x1="180" y1="180" x2="180" y2="820"/><line x1="170" y1="180" x2="190" y2="180"/><line x1="170" y1="820" x2="190" y2="820"/>
+  </g>
+  <text x="150" y="510" font-size="14" fill="#555a64" text-anchor="middle" transform="rotate(-90 150 510)">высота — по проекту</text>
+  <rect x="24" y="1046" width="752" height="60" fill="#2a2e35"/>
+  <text x="400" y="1083" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Демонстрационная схема · не проектная документация</text>
+</svg>

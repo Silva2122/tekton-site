@@ -1,0 +1,116 @@
+{
+ "scenes": [
+  {
+   "id": "01",
+   "name": "Радиальное обрамление",
+   "src": "img/scenes/01.webp"
+  },
+  {
+   "id": "02",
+   "name": "Окно по центру",
+   "src": "img/scenes/02.webp"
+  },
+  {
+   "id": "03",
+   "name": "Панорамное окно",
+   "src": "img/scenes/03.webp"
+  },
+  {
+   "id": "04",
+   "name": "Окно со смещением",
+   "src": "img/scenes/04.webp"
+  },
+  {
+   "id": "05",
+   "name": "Глубокий портал",
+   "src": "img/scenes/05.webp"
+  },
+  {
+   "id": "06",
+   "name": "Рифлёный подоконный пояс",
+   "src": "img/scenes/06.webp"
+  },
+  {
+   "id": "07",
+   "name": "Колонна и поперечина",
+   "src": "img/scenes/07.webp"
+  },
+  {
+   "id": "08",
+   "name": "Горизонтальные пояса",
+   "src": "img/scenes/08.webp"
+  },
+  {
+   "id": "09",
+   "name": "Вертикальный ритм",
+   "src": "img/scenes/09.webp"
+  },
+  {
+   "id": "10",
+   "name": "Ступенчатый рельеф",
+   "src": "img/scenes/10.webp"
+  },
+  {
+   "id": "11",
+   "name": "Наклонная гармошка",
+   "src": "img/scenes/11.webp"
+  },
+  {
+   "id": "12",
+   "name": "Угловой фрагмент",
+   "src": "img/scenes/12.webp"
+  },
+  {
+   "id": "13",
+   "name": "Выступающие обрамления окон",
+   "src": "img/scenes/13.webp"
+  },
+  {
+   "id": "14",
+   "name": "Перфорация с подсветкой",
+   "src": "img/scenes/14.webp"
+  },
+  {
+   "id": "15",
+   "name": "Объёмная шахматка",
+   "src": "img/scenes/15.webp"
+  }
+ ],
+ "xtra": [
+  {
+   "id": "X01",
+   "name": "Складка с углом",
+   "src": "img/xtra/X01-1.webp"
+  },
+  {
+   "id": "X01",
+   "name": "Складка с углом",
+   "src": "img/xtra/X01-2.webp"
+  },
+  {
+   "id": "X02",
+   "name": "Ламели под дерево",
+   "src": "img/xtra/X02-1.webp"
+  },
+  {
+   "id": "X03",
+   "name": "Наклонные перфопанели",
+   "src": "img/xtra/X03-1.webp"
+  },
+  {
+   "id": "X04",
+   "name": "Треугольная перфорация",
+   "src": "img/xtra/X04-1.webp"
+  },
+  {
+   "id": "X05",
+   "name": "Градиент по дуге",
+   "src": "img/xtra/X05-1.webp"
+  },
+  {
+   "id": "X06",
+   "name": "Солнцезащитные ламели",
+   "src": "img/xtra/X06-1.webp"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="1130" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="1082" fill="none" stroke="#2a2e35" stroke-width="2"/>
+  <rect x="24" y="24" width="752" height="72" fill="#f1f2f6"/>
+  <text x="48" y="56" font-size="22" font-weight="700" fill="#2a2e35">ТЕКТОН · Лист 06 — Спецификации (демо)</text>
+  <text x="48" y="82" font-size="14" fill="#555a64">Форма спецификации. Позиции и объёмы заполняются по объекту.</text>
+  <text x="400" y="620" font-size="44" font-weight="700" fill="#d8dbe1" text-anchor="middle" transform="rotate(-24 400 620)">ДЕМОНСТРАЦИОННАЯ СХЕМА</text>
+  <g font-size="15" fill="#2a2e35">
+    <text x="70" y="180">№</text><text x="130" y="180">Наименование</text><text x="480" y="180">Ед.</text><text x="610" y="180">Кол-во</text>
+    <line x1="60" y1="194" x2="740" y2="194" stroke="#2a2e35" stroke-width="2"/>
+    <text x="70" y="240">1</text><text x="130" y="240">Кассета фасадная</text><text x="480" y="240">м²</text><text x="610" y="240">по проекту</text>
+    <line x1="60" y1="256" x2="740" y2="256" stroke="#e7e9ee"/>
+    <text x="70" y="300">2</text><text x="130" y="300">Кронштейн</text><text x="480" y="300">шт</text><text x="610" y="300">по проекту</text>
+    <line x1="60" y1="316" x2="740" y2="316" stroke="#e7e9ee"/>
+    <text x="70" y="360">3</text><text x="130" y="360">Направляющая</text><text x="480" y="360">м</text><text x="610" y="360">по проекту</text>
+    <line x1="60" y1="376" x2="740" y2="376" stroke="#e7e9ee"/>
+    <text x="70" y="420">4</text><text x="130" y="420">Утеплитель</text><text x="480" y="420">м³</text><text x="610" y="420">по проекту</text>
+    <line x1="60" y1="436" x2="740" y2="436" stroke="#e7e9ee"/>
+    <text x="70" y="480">5</text><text x="130" y="480">Крепёж и метизы</text><text x="480" y="480">компл.</text><text x="610" y="480">по проекту</text>
+    <line x1="60" y1="496" x2="740" y2="496" stroke="#2a2e35"/>
+  </g>
+  <rect x="60" y="700" width="680" height="200" fill="#f1f2f6" stroke="#2a2e35"/>
+  <text x="84" y="740" font-size="15" fill="#2a2e35">Примечание: номенклатура и объёмы определяются</text>
+  <text x="84" y="768" font-size="15" fill="#2a2e35">рабочей документацией конкретного объекта;</text>
+  <text x="84" y="796" font-size="15" fill="#2a2e35">лист иллюстрирует только форму выдачи.</text>
+  <rect x="24" y="1046" width="752" height="60" fill="#2a2e35"/>
+  <text x="400" y="1083" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Демонстрационная схема · не проектная документация</text>
+</svg>

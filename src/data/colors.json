@@ -1,0 +1,437 @@
+[
+ {
+  "id": "solid",
+  "name": "Solid",
+  "description": "Однотонные покрытия: спокойные базовые и акцентные оттенки для чёткой геометрии фасада.",
+  "items": [
+   {
+    "code": "NN3319",
+    "name": "Пудра RAL 9005 · AkzoNobel",
+    "map": "img/swatches/solid-1.webp",
+    "hex": "#3C3E42"
+   },
+   {
+    "code": "RAL 4005",
+    "name": "Сине-сиреневый · GRAVIS",
+    "hex": "#746395"
+   },
+   {
+    "code": "RAL 4010",
+    "name": "Розовый · GRAVIS",
+    "hex": "#AC3B71"
+   },
+   {
+    "code": "RAL 5024",
+    "name": "Пастельно-голубой · GRAVIS",
+    "hex": "#6C8DAA"
+   }
+  ]
+ },
+ {
+  "id": "metallic",
+  "name": "Metallic",
+  "description": "Металлический блеск, перламутровые оттенки и мягкие переходы света.",
+  "items": [
+   {
+    "code": "N23059",
+    "name": "Пудра металлик хвойный/зеленый · AkzoNobel",
+    "map": "img/swatches/metallic-1.webp",
+    "hex": "#325343"
+   },
+   {
+    "code": "N23079",
+    "name": "Пудра металлик винтаж · AkzoNobel",
+    "map": "img/swatches/metallic-2.webp",
+    "hex": "#4D3538"
+   },
+   {
+    "code": "N23119",
+    "name": "Пудра меланж перламутр · AkzoNobel",
+    "map": "img/swatches/metallic-3.webp",
+    "hex": "#625E5B"
+   },
+   {
+    "code": "N23129",
+    "name": "Пудра металлик аквамарин · AkzoNobel",
+    "map": "img/swatches/metallic-4.webp",
+    "hex": "#5A5353"
+   },
+   {
+    "code": "N23159",
+    "name": "Пудра металлик сиена · AkzoNobel",
+    "map": "img/swatches/metallic-5.webp",
+    "hex": "#53534E"
+   },
+   {
+    "code": "N23229",
+    "name": "Пудра металлик оникс · AkzoNobel",
+    "map": "img/swatches/metallic-6.webp",
+    "hex": "#344250"
+   },
+   {
+    "code": "Y20009",
+    "name": "Classic Copper · AkzoNobel",
+    "map": "img/swatches/metallic-7.webp",
+    "hex": "#CE8557"
+   },
+   {
+    "code": "Y22119",
+    "name": "Zinc · AkzoNobel",
+    "map": "img/swatches/metallic-8.webp",
+    "hex": "#848384"
+   },
+   {
+    "code": "Y22359",
+    "name": "Pure Gold · AkzoNobel",
+    "map": "img/swatches/metallic-9.webp",
+    "hex": "#A6834D"
+   },
+   {
+    "code": "Y23109",
+    "name": "Warm Bronze · AkzoNobel",
+    "map": "img/swatches/metallic-10.webp",
+    "hex": "#9B7450"
+   }
+  ]
+ },
+ {
+  "id": "anodized",
+  "name": "Anodized",
+  "description": "Покрытия с эффектом анодированного металла: серебро, шампань, золото и медь. Декоративный эффект, не настоящее анодирование.",
+  "items": [
+   {
+    "code": "Y22139",
+    "name": "Anodic Gold · AkzoNobel",
+    "map": "img/swatches/anodized-1.webp",
+    "hex": "#A28E71"
+   },
+   {
+    "code": "AD 3100",
+    "name": "BILDEX",
+    "map": "img/swatches/anodized-2.webp",
+    "hex": "#7C3F34"
+   },
+   {
+    "code": "Champagne",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/anodized-3.webp",
+    "hex": "#BFAE96"
+   },
+   {
+    "code": "Copper Classic",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/anodized-4.webp",
+    "hex": "#C48E68"
+   },
+   {
+    "code": "Dubai Gold",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/anodized-5.webp",
+    "hex": "#BB9C6B"
+   },
+   {
+    "code": "Medium Copper",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/anodized-6.webp",
+    "hex": "#C3835F"
+   }
+  ]
+ },
+ {
+  "id": "chameleon",
+  "name": "Chameleon",
+  "description": "Оттенки, меняющие тон в зависимости от угла освещения: переливы от тёплых к холодным.",
+  "items": [
+   {
+    "code": "Gold",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/chameleon-1.webp",
+    "hex": "#C39C5B"
+   },
+   {
+    "code": "Light Blue",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/chameleon-2.webp",
+    "hex": "#E2ECED"
+   },
+   {
+    "code": "Silver Bronze",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/chameleon-3.webp",
+    "hex": "#9A8674"
+   },
+   {
+    "code": "Volcano Granite",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/chameleon-4.webp",
+    "hex": "#6E2710"
+   },
+   {
+    "code": "White Fantasy",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/chameleon-5.webp",
+    "hex": "#5B4F5A"
+   }
+  ]
+ },
+ {
+  "id": "patina",
+  "name": "Patina",
+  "description": "Состаренные тона: окисленная медь, бронза и зелёные патины. Декоративный эффект покрытия.",
+  "items": [
+   {
+    "code": "YX3559",
+    "name": "Corten Steel · AkzoNobel",
+    "map": "img/swatches/patina-1.webp",
+    "hex": "#654D41"
+   },
+   {
+    "code": "Green Copper Patina",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/patina-2.webp",
+    "hex": "#6A8D75"
+   },
+   {
+    "code": "Green Patina",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/patina-3.webp",
+    "hex": "#66A79D"
+   },
+   {
+    "code": "Grey/Dark Grey",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/patina-4.webp",
+    "hex": "#636A6A"
+   },
+   {
+    "code": "I 9203",
+    "name": "Patina Copper · Goldstar",
+    "map": "img/swatches/patina-5.webp",
+    "hex": "#97B096"
+   }
+  ]
+ },
+ {
+  "id": "stone",
+  "name": "Stone",
+  "description": "Фактуры под натуральный камень: гранит, травертин и мягкие минеральные тона.",
+  "items": [
+   {
+    "code": "S23149",
+    "name": "Rock Crystal · AkzoNobel",
+    "map": "img/swatches/stone-1.webp",
+    "hex": "#D9D7DA"
+   },
+   {
+    "code": "Y43019",
+    "name": "Limestone · AkzoNobel",
+    "map": "img/swatches/stone-2.webp",
+    "hex": "#D2C6B8"
+   },
+   {
+    "code": "Y43029",
+    "name": "Concrete Stone · AkzoNobel",
+    "map": "img/swatches/stone-3.webp",
+    "hex": "#98A1A6"
+   },
+   {
+    "code": "Y43039",
+    "name": "White Stone · AkzoNobel",
+    "map": "img/swatches/stone-4.webp",
+    "hex": "#C8C1B6"
+   },
+   {
+    "code": "BA 0023",
+    "name": "Голубой мрамор · BILDEX",
+    "map": "img/swatches/stone-5.webp",
+    "hex": "#829CBB"
+   },
+   {
+    "code": "BA 0049",
+    "name": "Камень · BILDEX",
+    "map": "img/swatches/stone-6.webp",
+    "hex": "#50423F"
+   },
+   {
+    "code": "BA 0057",
+    "name": "Камень · BILDEX",
+    "map": "img/swatches/stone-7.webp",
+    "hex": "#D5D1C4"
+   }
+  ]
+ },
+ {
+  "id": "concrete",
+  "name": "Concrete",
+  "description": "Матовые фактуры под архитектурный бетон: серые оттенки и спокойная поверхность.",
+  "items": [
+   {
+    "code": "W5",
+    "name": "Бетон светло-серый · GRAVIS",
+    "map": "img/swatches/concrete-1.webp",
+    "hex": "#AAA2A0"
+   },
+   {
+    "code": "AFB 115",
+    "name": "Бетон · Goldstar",
+    "map": "img/swatches/concrete-2.webp",
+    "hex": "#CDCDCF"
+   },
+   {
+    "code": "AFB 141",
+    "name": "Бетон · Goldstar",
+    "map": "img/swatches/concrete-3.webp",
+    "hex": "#A1A0A1"
+   },
+   {
+    "code": "SL-143",
+    "name": "Бетон Light · SIBALUX",
+    "map": "img/swatches/concrete-4.webp",
+    "hex": "#D7C29D"
+   }
+  ]
+ },
+ {
+  "id": "fibre",
+  "name": "Fibre",
+  "description": "Тонкая структурная фактура «фибра»: сатиновая поверхность с лёгким рисунком.",
+  "items": [
+   {
+    "code": "Blue Grey",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/fibre-1.webp",
+    "hex": "#909091"
+   },
+   {
+    "code": "Light Ivory",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/fibre-2.webp",
+    "hex": "#ECDCC7"
+   },
+   {
+    "code": "Marine Blue",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/fibre-3.webp",
+    "hex": "#115C8A"
+   },
+   {
+    "code": "Medium Grey",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/fibre-4.webp",
+    "hex": "#7A7875"
+   },
+   {
+    "code": "Off White",
+    "name": "Cladding Solutions",
+    "map": "img/swatches/fibre-5.webp",
+    "hex": "#F8F4EC"
+   }
+  ]
+ },
+ {
+  "id": "wood",
+  "name": "Wood",
+  "description": "Декор под дерево: тёплые породы и спокойные тона. Эффект покрытия, не шпон.",
+  "items": [
+   {
+    "code": "BA 0129",
+    "name": "Дерево · BILDEX",
+    "map": "img/swatches/wood-1.webp",
+    "hex": "#8B7D73"
+   },
+   {
+    "code": "BA 0138",
+    "name": "Дерево · BILDEX",
+    "map": "img/swatches/wood-2.webp",
+    "hex": "#715539"
+   },
+   {
+    "code": "BA 0145",
+    "name": "Дерево · BILDEX",
+    "map": "img/swatches/wood-3.webp",
+    "hex": "#C69564"
+   },
+   {
+    "code": "F002",
+    "name": "Golden Oak · Cladding Solutions",
+    "map": "img/swatches/wood-4.webp",
+    "hex": "#6B441F"
+   },
+   {
+    "code": "F010",
+    "name": "Patina Oak White · Cladding Solutions",
+    "map": "img/swatches/wood-5.webp",
+    "hex": "#B0AB98"
+   },
+   {
+    "code": "F012",
+    "name": "Храст · Cladding Solutions",
+    "map": "img/swatches/wood-6.webp",
+    "hex": "#976D4A"
+   }
+  ]
+ },
+ {
+  "id": "scratch",
+  "name": "Scratch",
+  "description": "Фактура «скретч»: тонкие штрихи шлифованного металла, сатиновый блеск.",
+  "items": [
+   {
+    "code": "0005",
+    "name": "Царапаное серебро · GRAVIS",
+    "map": "img/swatches/scratch-1.webp",
+    "hex": "#6F8F98"
+   },
+   {
+    "code": "G0003",
+    "name": "Scratch Brass · Goldstar",
+    "map": "img/swatches/scratch-2.webp",
+    "hex": "#B1A94C"
+   },
+   {
+    "code": "G0008",
+    "name": "Scratch Copper · Goldstar",
+    "map": "img/swatches/scratch-3.webp",
+    "hex": "#CCA493"
+   }
+  ]
+ },
+ {
+  "id": "shagreen",
+  "name": "Shagreen",
+  "description": "Фактура «шагрень»: мелкозернистая поверхность с мягким рассеянным отражением.",
+  "items": [
+   {
+    "code": "9005",
+    "name": "Крокодиловая кожа по RAL 9005 · Радар",
+    "map": "img/swatches/shagreen-1.webp",
+    "hex": "#3D4448"
+   }
+  ]
+ },
+ {
+  "id": "brick",
+  "name": "Brick",
+  "description": "Оттенки клинкерного кирпича: терракота, красно-коричневые и тёмные тона. Декоративный эффект покрытия.",
+  "items": [
+   {
+    "code": "AF 406",
+    "name": "Плитка силикатная · Goldstar",
+    "map": "img/swatches/brick-1.webp",
+    "hex": "#B89B7D"
+   },
+   {
+    "code": "AF 414",
+    "name": "Кирпич · Goldstar",
+    "map": "img/swatches/brick-2.webp",
+    "hex": "#353533"
+   },
+   {
+    "code": "SA 8004",
+    "name": "Коллекция Brick · SIBALUX",
+    "map": "img/swatches/brick-3.webp",
+    "hex": "#4C4A4A"
+   }
+  ]
+ }
+]

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1130" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="1130" fill="#ffffff"/>
+  <rect x="24" y="24" width="752" height="1082" fill="none" stroke="#2a2e35" stroke-width="2"/>
+  <rect x="24" y="24" width="752" height="72" fill="#f1f2f6"/>
+  <text x="48" y="56" font-size="22" font-weight="700" fill="#2a2e35">ТЕКТОН · Лист 01 — Прочностной расчёт (демо)</text>
+  <text x="48" y="82" font-size="14" fill="#555a64">Показывает состав выдачи. Значения условные, объект не конкретизирован.</text>
+  <text x="400" y="620" font-size="44" font-weight="700" fill="#d8dbe1" text-anchor="middle" transform="rotate(-24 400 620)">ДЕМОНСТРАЦИОННАЯ СХЕМА</text>
+  <g stroke="#2a2e35" stroke-width="3" fill="none">
+    <line x1="140" y1="360" x2="660" y2="360"/>
+    <line x1="260" y1="360" x2="260" y2="480"/>
+    <line x1="540" y1="360" x2="540" y2="480"/>
+  </g>
+  <g stroke="#4a5ae8" stroke-width="3" fill="none">
+    <line x1="200" y1="280" x2="200" y2="340"/><path d="M192 336 L200 352 L208 336" fill="#4a5ae8"/>
+    <line x1="330" y1="280" x2="330" y2="340"/><path d="M322 336 L330 352 L338 336" fill="#4a5ae8"/>
+    <line x1="460" y1="280" x2="460" y2="340"/><path d="M452 336 L460 352 L468 336" fill="#4a5ae8"/>
+    <line x1="590" y1="280" x2="590" y2="340"/><path d="M582 336 L590 352 L598 336" fill="#4a5ae8"/>
+  </g>
+  <text x="400" y="268" font-size="15" fill="#4a5ae8" text-anchor="middle">Расчётные нагрузки — по заданию на проектирование</text>
+  <text x="180" y="505" font-size="14" fill="#555a64">Опора</text>
+  <text x="600" y="505" font-size="14" fill="#555a64">Опора</text>
+  <g font-size="15" fill="#2a2e35">
+    <text x="70" y="620">Проверка</text><text x="380" y="620">Критерий</text><text x="640" y="620">Результат</text>
+    <line x1="60" y1="634" x2="740" y2="634" stroke="#2a2e35"/>
+    <text x="70" y="668">Кассета</text><text x="380" y="668">по СП / проекту</text><text x="640" y="668">условно</text>
+    <text x="70" y="700">Кронштейн</text><text x="380" y="700">по СП / проекту</text><text x="640" y="700">условно</text>
+    <text x="70" y="732">Направляющая</text><text x="380" y="732">по СП / проекту</text><text x="640" y="732">условно</text>
+    <line x1="60" y1="750" x2="740" y2="750" stroke="#2a2e35"/>
+  </g>
+  <rect x="24" y="1046" width="752" height="60" fill="#2a2e35"/>
+  <text x="400" y="1083" font-size="17" font-weight="700" fill="#ffffff" text-anchor="middle">Демонстрационная схема · не проектная документация</text>
+</svg>

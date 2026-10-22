@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тектон — фасадные системы из стали и алюминия</title>
+  <meta name="description" content="Тектон проектирует, производит и монтирует металлические фасадные кассеты: собственное производство, более 200 цветов покрытий, любая форма панели.">
+  <link rel="icon" href="/brand/tekton-sign-plate.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/Geologica-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/Geologica-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/src/styles/index.css">
+</head>
+<body>
+  <header class="site-head" data-head>
+    <a class="site-head__logo" href="#top" aria-label="Тектон, на главную">
+      <img src="/brand/tekton-horizontal-indigo.svg" alt="" width="183" height="32">
+    </a>
+  </header>
+
+  <nav class="dock" data-dock aria-label="Разделы">
+    <a class="dock__logo" href="#top" aria-label="Тектон, наверх"><img src="/brand/tekton-sign-plate.svg" alt="" width="28" height="28"></a>
+    <div class="dock__group">
+      <a class="dock__pill glass" href="#metals"><span>Металлы</span></a>
+      <a class="dock__pill glass" href="#cassettes"><span>Кассеты</span></a>
+      <a class="dock__pill glass" href="#colors"><span>Цвета</span></a>
+      <a class="dock__pill glass" href="#production"><span>Производство</span></a>
+      <a class="dock__pill glass" href="#objects"><span>Объекты</span></a>
+    </div>
+    <a class="dock__cta" href="#request"><span>Обсудить проект</span></a>
+  </nav>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="bg" aria-hidden="true" data-bg><i class="bg__grid" data-bg-grid></i><i class="bg__glow" data-bg-glow></i></div>
+  <main id="main">
+    <section class="hero" id="top" data-hero>
+      <canvas class="hero__wall" data-wall aria-hidden="true"></canvas>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="hero__bottom">
+        <h1 class="hero__title">
+          <span class="hero__caption">Производство фасадных систем</span>
+          <span class="line"><span>форма имеет</span></span>
+          <span class="line"><span>значение</span></span>
+        </h1>
+        <p class="hero__lead">
+          Проектируем, производим и&nbsp;монтируем фасадные
+          кассеты из&nbsp;стали и&nbsp;алюминия. Собственный завод
+          на&nbsp;Урале, до&nbsp;30&nbsp;000&nbsp;м² в&nbsp;месяц.
+        </p>
+      </div>
+    </section>
+
+    <div class="pixels" data-pixels aria-hidden="true"></div>
+
+    <section class="sec metals" id="metals" data-metals>
+      <div class="sec__head">
+        <span class="sec__caption"><b>01</b>Материал</span>
+        <div>
+          <h2 class="sec__title" data-split>четыре характера, одна&nbsp;геометрия</h2>
+          <p class="sec__lead">Металл задаёт массу кассеты, прочность, срок службы и&nbsp;класс объекта. Цвет и&nbsp;фактуру задаёт покрытие.</p>
+        </div>
+      </div>
+      <div class="metals__body">
+        <ul class="metals__list">
+          <li class="metals__row is-active" data-metal="0">
+            <span class="metals__name">алюминий</span>
+            <span class="metals__spec">1,2–2 мм</span>
+            <span class="metals__note">Лёгкий. Крупный формат и сложная геометрия, статусные фасады.</span>
+          </li>
+          <li class="metals__row" data-metal="1">
+            <span class="metals__name">оцинкованная сталь</span>
+            <span class="metals__spec">0,7–1,2 мм</span>
+            <span class="metals__note">Основа типовых и массовых фасадов под порошковое или рулонное покрытие.</span>
+          </li>
+          <li class="metals__row" data-metal="2">
+            <span class="metals__name">нержавеющая сталь</span>
+            <span class="metals__spec">1,0–1,5 мм</span>
+            <span class="metals__note">Браш и блеск для акцентных участков с выразительной поверхностью.</span>
+          </li>
+          <li class="metals__row" data-metal="3">
+            <span class="metals__name">медь</span>
+            <span class="metals__spec">по запросу</span>
+            <span class="metals__note">Живой металл с тёплым тоном, который темнеет со временем.</span>
+          </li>
+        </ul>
+        <div class="metals__media" aria-hidden="true"><canvas class="metals__canvas" data-metals-canvas></canvas></div>
+      </div>
+    </section>
+
+    <section class="cas" id="cassettes" data-cassettes>
+      <div class="cas__text">
+        <span class="sec__caption">Кассеты</span>
+        <h2 class="sec__title" data-split>пять систем крепления</h2>
+        <p class="sec__lead">Система крепления определяет вид шва, узел и&nbsp;монтаж. Модель построена по&nbsp;заводским размерам, поверните её курсором.</p>
+        <ol class="cas__types" data-cas-types></ol>
+      </div>
+      <div class="cas__stage">
+        <canvas class="cas__canvas" data-cas-canvas aria-hidden="true"></canvas>
+        <div class="cas__colors glass" data-cas-colors></div>
+        <div class="cas__spec glass" data-cas-spec></div>
+      </div>
+    </section>
+
+    <section class="sec ledger" id="shapes" data-shapes>
+      <div class="sec__head">
+        <span class="sec__caption">Свобода формы</span>
+        <div>
+          <h2 class="sec__title" data-split>кассета — не&nbsp;только плоскость</h2>
+          <p class="sec__lead">Пять приёмов, которые превращают металл в&nbsp;архитектуру. Пределы считаем под&nbsp;металл, толщину и&nbsp;узел.</p>
+        </div>
+      </div>
+      <div class="shapes__body">
+        <div class="shapes__media" aria-hidden="true" data-px="10">
+          <img src="/img/scenes/01.webp" alt="" class="is-active" loading="lazy">
+          <img src="/img/scenes/11.webp" alt="" loading="lazy">
+          <img src="/img/scenes/15.webp" alt="" loading="lazy">
+          <img src="/img/scenes/14.webp" alt="" loading="lazy">
+          <img src="/img/xtra/X05-1.webp" alt="" loading="lazy">
+        </div>
+        <ul class="rows" data-shapes-list>
+          <li class="is-active"><span class="rows__name">радиусные</span><span class="rows__text">Плавный поворот плоскости: скруглённые углы, входные группы, изогнутые фасады.</span></li>
+          <li><span class="rows__name">гармошка</span><span class="rows__text">Складки листа дают фасаду ритм и глубину тени. Делаем по 3D-модели архитектора.</span></li>
+          <li><span class="rows__name">объёмные</span><span class="rows__text">Кассеты с рельефом и гранями: свет и тень работают на плоскости.</span></li>
+          <li><span class="rows__name">перфорация</span><span class="rows__text">Регулярный шаг отверстий: экраны, ограждения, просвет и подсветка изнутри.</span></li>
+          <li><span class="rows__name">художественная перфорация</span><span class="rows__text">Рисунок из отверстий переменной плотности по векторному файлу: изображение проявляется с расстояния.</span></li>
+        </ul>
+      </div>
+      <div class="scenes">
+        <p class="scenes__caption">Двадцать два типовых фрагмента: окно, портал, пояс, угол, ламели, складка. Из них собирается любой фасад.</p>
+        <div class="scenes__strip" data-scenes></div>
+      </div>
+    </section>
+
+    <div class="pixels" data-pixels aria-hidden="true"></div>
+
+    <section class="col" id="colors" data-colors>
+      <div class="col__pin">
+        <canvas class="col__canvas" data-col-canvas aria-hidden="true"></canvas>
+        <div class="col__shade" aria-hidden="true"></div>
+        <div class="col__ui">
+          <div class="col__head">
+            <span class="sec__caption"><b>02</b>Покрытие</span>
+            <h2 class="sec__title" data-split>59 оттенков, 12&nbsp;коллекций</h2>
+            <p class="sec__lead">Выберите покрытие, и&nbsp;фасад перекрасится. В&nbsp;каталоге больше двухсот цветов, здесь — основные.</p>
+          </div>
+          <div class="col__picker glass">
+            <div class="col__tabs" data-col-tabs role="tablist"></div>
+            <div class="col__swatches" data-col-swatches></div>
+            <div class="col__current" data-col-current></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec ledger" id="coatings">
+      <div class="sec__head">
+        <span class="sec__caption">Методы нанесения</span>
+        <div>
+          <h2 class="sec__title" data-split>пять методов нанесения</h2>
+          <p class="sec__lead">Порошок наносим сами, на&nbsp;собственной линии. Остальные методы подбираем под металл, геометрию и&nbsp;условия эксплуатации. Выбор — по&nbsp;физическим образцам.</p>
+        </div>
+      </div>
+      <ul class="rows rows--media">
+        <li><img src="/img/coatings/powder.webp" alt="" loading="lazy"><span class="rows__name">порошковая окраска</span><span class="rows__text">Наносим порошок на готовую кассету электростатикой и полимеризуем в печи. Цвет и фактура по каталогу.</span><span class="rows__spec">собственное нанесение</span></li>
+        <li><img src="/img/coatings/coil.webp" alt="" loading="lazy"><span class="rows__name">coil coating</span><span class="rows__text">Рулонное покрытие нанесено у поставщика, мы формуем из него кассеты. Подходит для больших серий.</span><span class="rows__spec">металл поставщика</span></li>
+        <li><img src="/img/coatings/uv.webp" alt="" loading="lazy"><span class="rows__name">уф-печать</span><span class="rows__text">Графика, паттерн или переход цвета прямо на лицевой плоскости панели.</span><span class="rows__spec">изображение</span></li>
+        <li><img src="/img/coatings/sublimation.webp" alt="" loading="lazy"><span class="rows__name">сублимация</span><span class="rows__text">Плёнка Gravis PlastCover с текстурой дерева, камня или авторским рисунком переносится на металл.</span><span class="rows__spec">декор</span></li>
+        <li><img src="/img/coatings/anodized-effect.webp" alt="" loading="lazy"><span class="rows__name">анодирование</span><span class="rows__text">Защитный оксидный слой на алюминии: металл остаётся виден, оттенок и блеск по образцу.</span><span class="rows__spec">оксидный слой</span></li>
+      </ul>
+    </section>
+
+    <div class="pixels" data-pixels aria-hidden="true"></div>
+
+    <section class="objects" id="objects" data-objects>
+      <div class="objects__pin">
+        <canvas class="objects__canvas" data-spiral aria-hidden="true"></canvas>
+        <div class="objects__shade" aria-hidden="true"></div>
+        <div class="objects__stage objects__stage--a" data-stage-a>
+          <span class="sec__caption"><b>03</b>Объекты</span>
+          <h2 class="sec__title" data-split>семнадцать фасадов, три&nbsp;цвета у&nbsp;каждого</h2>
+          <p class="sec__lead">Жилые кварталы, бизнес-центры, аэропорт, паркинги и&nbsp;заводы. Листайте, чтобы развернуть.</p>
+        </div>
+        <div class="objects__stage objects__stage--b" data-stage-b>
+          <span class="sec__caption">География</span>
+          <h2 class="objects__title">от жилых кварталов до&nbsp;аэропортов</h2>
+          <ul class="objects__list" data-objects-list></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec ledger" id="segments">
+      <div class="sec__head">
+        <span class="sec__caption">Классы объектов</span>
+        <div>
+          <h2 class="sec__title" data-split>четыре класса фасада</h2>
+          <p class="sec__lead">Класс определяет материал кассеты, покрытие и&nbsp;подконструкцию. Производитель один, допуски на&nbsp;всех уровнях единые.</p>
+        </div>
+      </div>
+      <ul class="rows rows--spec rows--photo">
+        <li><img src="/img/classes/standard.webp" alt="" loading="lazy" data-px="8"><span class="rows__name">стандарт</span><span class="rows__text">Типовые проекты и массовое строительство: школы и детские сады по 44-ФЗ и 223-ФЗ, склады, паркинги, объекты энергетики.</span><span class="rows__spec"><i>Оцинкованная сталь 0,7–1 мм</i><i>Порошок или полиэстер</i><i>Подконструкция: сталь</i></span></li>
+        <li><img src="/img/classes/comfort.webp" alt="" loading="lazy" data-px="8"><span class="rows__name">комфорт</span><span class="rows__text">Жилые кварталы и общественные здания, где важен вид фасада: разные русты, кассеты на иклях и салазках.</span><span class="rows__spec"><i>Оцинкованная сталь 1–1,2 мм</i><i>Порошок или Coil Coating</i><i>Подконструкция: сталь или алюминий</i></span></li>
+        <li><img src="/img/classes/business.webp" alt="" loading="lazy" data-px="8"><span class="rows__name">бизнес</span><span class="rows__text">Индивидуальные проекты с долговечными материалами: алюминиевые панели, по запросу — имитация камня и клинкера.</span><span class="rows__spec"><i>Сталь 1,2 мм или алюминий 1,2–2 мм</i><i>Порошок, рулонное, УФ-печать</i><i>Подконструкция: сталь или алюминий</i></span></li>
+        <li><img src="/img/classes/elite.webp" alt="" loading="lazy" data-px="8"><span class="rows__name">элит</span><span class="rows__text">Проекты известных бюро и эксклюзивные материалы. Любая форма панели, совместимость с любой подсистемой.</span><span class="rows__spec"><i>Алюминий 2 мм, нержавейка, медь, титан</i><i>Порошок, рулонное, УФ-печать</i><i>Подконструкция по проекту</i></span></li>
+      </ul>
+    </section>
+
+    <section class="sec ledger" id="subsystems">
+      <div class="sec__head">
+        <span class="sec__caption">Подсистемы</span>
+        <div>
+          <h2 class="sec__title" data-split>работаем со&nbsp;всеми подсистемами</h2>
+          <p class="sec__lead">Кассеты подбираем под подсистему вашего проекта. Для каждой запрашиваем альбом технических решений производителя. Нет вашей в&nbsp;списке — пришлите АТР, подберём узел.</p>
+        </div>
+      </div>
+      <p class="names">
+        <span>U-kon</span><span>Sial</span><span>Sirius</span><span>NordFox</span><span>КАФТ</span><span>Альтернатива</span><span>ДИАТ</span><span>Ронсон</span><span>Премьер</span><span>НФС Урал</span><span>Металл Профиль</span><span>АРС Пром</span><span>РУФАС</span><span>HILTI</span>
+      </p>
+      <ul class="rows rows--photo rows--photo-sheet">
+        <li><img src="/img/sheets/atr-nodes.webp" alt="Лист альбома технических решений: маркировка узлов" loading="lazy" data-px="8" data-view="img/sheets/full/atr-nodes.webp" data-view-name="Маркировка узлов"><span class="rows__name">альбом технических решений</span><span class="rows__text">Собственная подсистема ФК-2005 и ФК Z-1005: 82 листа узлов, схем установки утеплителя, крепёжных элементов и маркировки. По запросу пришлём альбом под вашу систему.</span><a class="rows__spec btn btn--primary btn--sm" href="#request">Запросить АТР</a></li>
+      </ul>
+    </section>
+
+    <div class="pixels" data-pixels aria-hidden="true"></div>
+
+    <section class="prod" id="production" data-prod>
+      <div class="prod__media" aria-hidden="true" data-prod-media></div>
+      <div class="prod__text">
+        <div class="sec__head prod__head">
+          <span class="sec__caption"><b>04</b>Процесс</span>
+          <div>
+            <h2 class="sec__title" data-split>десять этапов, от&nbsp;металла до&nbsp;отгрузки</h2>
+          </div>
+        </div>
+        <ol class="prod__steps" data-prod-steps>
+          <li><b>01</b><span class="prod__name">Приёмка металла</span><span class="prod__desc">Проверяем входной металл: марку, толщину, покрытие поставщика.</span></li>
+          <li><b>02</b><span class="prod__name">Раскрой</span><span class="prod__desc">Режем лист на заготовки по раскладке проекта.</span></li>
+          <li><b>03</b><span class="prod__name">Координатная пробивка</span><span class="prod__desc">Отверстия и просечки по координатам из чертежа.</span></li>
+          <li><b>04</b><span class="prod__name">Гибка</span><span class="prod__desc">Формируем борта и геометрию кассеты.</span></li>
+          <li><b>05</b><span class="prod__name">Сборка</span><span class="prod__desc">Углы, усилители, крепёжные элементы.</span></li>
+          <li><b>06</b><span class="prod__name">Подготовка поверхности</span><span class="prod__desc">Очищаем металл и готовим под покрытие.</span></li>
+          <li><b>07</b><span class="prod__name">Порошковая окраска</span><span class="prod__desc">Наносим порошок электростатикой и полимеризуем в печи.</span></li>
+          <li><b>08</b><span class="prod__name">Контроль</span><span class="prod__desc">Проверяем геометрию, покрытие и комплектность.</span></li>
+          <li><b>09</b><span class="prod__name">Упаковка</span><span class="prod__desc">Так, чтобы поверхность дошла без повреждений.</span></li>
+          <li><b>10</b><span class="prod__name">Отгрузка</span><span class="prod__desc">Комплектуем по раскладке и отправляем на объект.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="sec ledger" id="design">
+      <div class="sec__head">
+        <span class="sec__caption">Проектирование</span>
+        <div>
+          <h2 class="sec__title" data-split>фасад начинается с&nbsp;проекта</h2>
+          <p class="sec__lead">Проект — комплект листов, по&nbsp;которым кассеты делают на&nbsp;заводе и&nbsp;собирают на&nbsp;стене. Если здания ещё нет, работаем по&nbsp;чертежам и&nbsp;модели. Если есть — начинаем с&nbsp;геодезической съёмки.</p>
+        </div>
+      </div>
+      <ul class="rows">
+        <li><span class="rows__name">АР</span><span class="rows__text">Архитектурные решения: раскладка кассет, цвета, швы, вид фасада целиком.</span></li>
+        <li><span class="rows__name">КМ</span><span class="rows__text">Конструкции металлические: подсистема, кассеты, крепления, прочностной расчёт.</span></li>
+        <li><span class="rows__name">узлы</span><span class="rows__text">Чертежи стыков: окна, углы, карнизы, примыкания.</span></li>
+        <li><span class="rows__name">геодезия</span><span class="rows__text">Измерения здания, чтобы кассеты встали по фактической геометрии.</span></li>
+        <li><span class="rows__name">файлы</span><span class="rows__text">Архитекторам и проектировщикам отправим чертежи кассет и узлов в DWG, BIM-модели и 3D-геометрию для раскладки.</span><a class="rows__spec btn btn--primary btn--sm" href="#request">Запросить файлы</a></li>
+      </ul>
+      <div class="sheets">
+        <p class="scenes__caption">Листы из рабочей документации: чертежи кассет и страницы альбома технических решений.</p>
+        <div class="sheets__strip">
+          <figure class="sheet" data-view="img/sheets/full/cassette-open.webp"><img src="/img/sheets/cassette-open.webp" alt="" loading="lazy"><figcaption>Кассета открытого типа</figcaption></figure>
+          <figure class="sheet" data-view="img/sheets/full/cassette-closed.webp"><img src="/img/sheets/cassette-closed.webp" alt="" loading="lazy"><figcaption>Кассета закрытого типа</figcaption></figure>
+          <figure class="sheet" data-view="img/sheets/full/cassette-hidden.webp"><img src="/img/sheets/cassette-hidden.webp" alt="" loading="lazy"><figcaption>Кассета скрытого типа</figcaption></figure>
+          <figure class="sheet" data-view="img/sheets/full/atr-cassettes.webp"><img src="/img/sheets/atr-cassettes.webp" alt="" loading="lazy"><figcaption>Фасадные кассеты ФК-2005</figcaption></figure>
+          <figure class="sheet" data-view="img/sheets/full/atr-fixings.webp"><img src="/img/sheets/atr-fixings.webp" alt="" loading="lazy"><figcaption>Крепёжные элементы</figcaption></figure>
+          <figure class="sheet" data-view="img/sheets/full/atr-insulation.webp"><img src="/img/sheets/atr-insulation.webp" alt="" loading="lazy"><figcaption>Схема установки утеплителя</figcaption></figure>
+          <figure class="sheet" data-view="img/sheets/full/atr-nodes.webp"><img src="/img/sheets/atr-nodes.webp" alt="" loading="lazy"><figcaption>Маркировка узлов</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec ledger" id="trust">
+      <div class="sec__head">
+        <span class="sec__caption">Документы</span>
+        <div>
+          <h2 class="sec__title" data-split>член Фасадного союза</h2>
+          <p class="sec__lead">Сертификаты, протоколы испытаний и&nbsp;экспертные заключения оформлены на&nbsp;ООО «РУФАС», владельца торговой марки «Тектон». Предоставляем по&nbsp;запросу, состав сверяем под материал и&nbsp;покрытие.</p>
+        </div>
+      </div>
+      <ul class="rows rows--tight">
+        <li><span class="rows__name">документы</span><span class="rows__text">Сертификат соответствия, протокол испытаний, экспертное заключение, сертификат на материал, заключение по пожарной опасности, документ Фасадного союза.</span><a class="rows__spec btn btn--primary btn--sm" href="#request">Запросить документы</a></li>
+        <li><span class="rows__name">нормативы</span><span class="rows__text">Статус НГ для стали и алюминия подтверждается документами на материал и покрытие по ГОСТ 30244-94. Для жилых зданий выше 75 м и общественных выше 50 м наружные стены должны иметь класс пожарной опасности К0 (СП 550.1311500.2026, п. 6.5).</span></li>
+      </ul>
+    </section>
+
+    <div class="pixels" data-pixels aria-hidden="true"></div>
+
+    <section class="sec ledger" id="group">
+      <div class="sec__head">
+        <span class="sec__caption"><b>05</b>Компания</span>
+        <div>
+          <h2 class="sec__title" data-split>группа компаний «Тектон»</h2>
+          <p class="sec__lead">Завод, сеть продаж и&nbsp;инжиниринг под одной маркой. Представительства в&nbsp;Екатеринбурге, Челябинске, Кургане, Тюмени и&nbsp;Москве.</p>
+        </div>
+      </div>
+      <ul class="rows rows--tight">
+        <li><span class="rows__name">ЗУК</span><span class="rows__text">ООО «Завод Урал-Кров». Производство профилей и металлоконструкций.</span></li>
+        <li><span class="rows__name">УК</span><span class="rows__text">«Уральская кровельная». Сеть продаж: Тюмень, Екатеринбург, Челябинск.</span></li>
+        <li><span class="rows__name">РУФАС</span><span class="rows__text">ООО «РУФАС». Производство металлоконструкций, владелец торговой марки «Тектон».</span></li>
+        <li><span class="rows__name">Тектон</span><span class="rows__text">Торговая марка. Фасадные системы из стали и алюминия: до 30 000 м² в месяц, изделия до 6 м, металл до 4 мм, заказ от 300 м².</span></li>
+      </ul>
+    </section>
+
+    <section class="sec request" id="request">
+      <div class="sec__head">
+        <span class="sec__caption">Запрос</span>
+        <div>
+          <h2 class="sec__title" data-split>обсудим ваш фасад</h2>
+          <p class="sec__lead">Концепция, материал и покрытие, образцы, узлы крепления, раскладка, объёмы и стоимость. Для первой оценки достаточно описания объекта, чертежа или модели.</p>
+        </div>
+      </div>
+      <div class="request__body">
+        <figure class="request__media" data-px="8">
+          <img src="/img/request.webp" alt="Фасад бизнес-центра в металлических кассетах" loading="lazy">
+          <figcaption class="glass"><span>Ответим в рабочий день</span></figcaption>
+        </figure>
+      <form class="request__form" action="#" method="post" data-request-form data-endpoint="" data-mailto="egor@ural-krov.ru">
+        <label class="field"><span>Имя</span><input type="text" name="name" autocomplete="name"></label>
+        <label class="field"><span>Телефон или почта</span><input type="text" name="contact" autocomplete="tel"></label>
+        <label class="field field--wide"><span>Об объекте</span><input type="text" name="about" placeholder="Город, тип здания, площадь фасада"></label>
+        <div class="request__actions">
+          <button class="btn btn--primary" type="submit">Отправить запрос</button>
+          <span class="request__note" data-request-note>Отвечаем в рабочий день. Данные не передаём третьим лицам.</span>
+        </div>
+      </form>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <div class="foot__top">
+        <img src="/brand/tekton-horizontal-indigo.svg" alt="Тектон" width="183" height="32" class="foot__logo">
+        <div class="foot__cols">
+          <div>
+            <span class="foot__h">Разделы</span>
+            <a href="#metals">Металлы</a><a href="#cassettes">Кассеты</a><a href="#shapes">Формы</a><a href="#coatings">Покрытия</a><a href="#colors">Цвета</a><a href="#objects">Объекты</a><a href="#subsystems">Подсистемы</a><a href="#design">Проектирование</a><a href="#production">Производство</a>
+          </div>
+          <div>
+            <span class="foot__h">Контакты</span>
+            <a href="tel:+79658657466">+7 965 865-74-66</a><a href="mailto:egor@ural-krov.ru">egor@ural-krov.ru</a>
+            <span>Екатеринбург, Челябинск, Курган, Тюмень, Москва</span>
+          </div>
+          <div>
+            <span class="foot__h">Группа компаний</span>
+            <span>ЗУК</span><span>Уральская кровельная</span><span>РУФАС</span><span>Тектон</span>
+          </div>
+        </div>
+      </div>
+      <p class="foot__legal">«Тектон» — торговая марка ООО «РУФАС», ИНН 4501198750, ОГРН 1144501007826. Изображения объектов — концептуальные визуализации.</p>
+    </footer>
+
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

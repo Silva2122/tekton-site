@@ -1,0 +1,325 @@
+[
+ {
+  "id": "01",
+  "city": "Екатеринбург",
+  "name": "ЖК 8 Avenue",
+  "variants": [
+   {
+    "label": "Белый RAL 9003",
+    "src": "img/objects/01-1.webp"
+   },
+   {
+    "label": "Тёмная бронза RAL 8019",
+    "src": "img/objects/01-2.webp"
+   },
+   {
+    "label": "Шампань бронзово-бежевый",
+    "src": "img/objects/01-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "02",
+  "city": "Пермь",
+  "name": "ЖК «Городские кварталы»",
+  "variants": [
+   {
+    "label": "Белый RAL 9016",
+    "src": "img/objects/02-1.webp"
+   },
+   {
+    "label": "Коричневый",
+    "src": "img/objects/02-2.webp"
+   },
+   {
+    "label": "Охра",
+    "src": "img/objects/02-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "03",
+  "city": "Екатеринбург",
+  "name": "Бизнес-парк «Деловой квартал»",
+  "variants": [
+   {
+    "label": "Белый бронза",
+    "src": "img/objects/03-1.webp"
+   },
+   {
+    "label": "Графит белый",
+    "src": "img/objects/03-2.webp"
+   },
+   {
+    "label": "Шампань бронза белый",
+    "src": "img/objects/03-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "04",
+  "city": "Екатеринбург",
+  "name": "Центр обработки данных",
+  "variants": [
+   {
+    "label": "Белый RAL 9003",
+    "src": "img/objects/04-1.webp"
+   },
+   {
+    "label": "Графит RAL 7024",
+    "src": "img/objects/04-2.webp"
+   },
+   {
+    "label": "Серебро RAL 9006",
+    "src": "img/objects/04-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "05",
+  "city": "Учалы",
+  "name": "Завод «ТехноНиколь»",
+  "variants": [
+   {
+    "label": "Графит RAL 7024",
+    "src": "img/objects/05-1.webp"
+   },
+   {
+    "label": "Красный RAL 3028",
+    "src": "img/objects/05-2.webp"
+   },
+   {
+    "label": "Медь RAL 8029",
+    "src": "img/objects/05-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "06",
+  "city": "Тюмень",
+  "name": "Стенд: радиальные кассеты",
+  "variants": [
+   {
+    "label": "Белый",
+    "src": "img/objects/06-1.webp"
+   },
+   {
+    "label": "Медь",
+    "src": "img/objects/06-2.webp"
+   },
+   {
+    "label": "Серебро",
+    "src": "img/objects/06-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "07",
+  "city": "Тюмень",
+  "name": "Стенд «Скала»",
+  "variants": [
+   {
+    "label": "Белый",
+    "src": "img/objects/07-1.webp"
+   },
+   {
+    "label": "Медь",
+    "src": "img/objects/07-2.webp"
+   },
+   {
+    "label": "Серебро",
+    "src": "img/objects/07-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "08",
+  "city": "Тюмень",
+  "name": "Стенд «Змейка»",
+  "variants": [
+   {
+    "label": "Белый",
+    "src": "img/objects/08-1.webp"
+   },
+   {
+    "label": "Медь",
+    "src": "img/objects/08-2.webp"
+   },
+   {
+    "label": "Серебро",
+    "src": "img/objects/08-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "09",
+  "city": "Ирбит",
+  "name": "Дом творчества «Кристалл»",
+  "variants": [
+   {
+    "label": "Бронза беж",
+    "src": "img/objects/09-1.webp"
+   },
+   {
+    "label": "Графит",
+    "src": "img/objects/09-2.webp"
+   },
+   {
+    "label": "Синий RAL 5012-5024-5025",
+    "src": "img/objects/09-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "10",
+  "city": "Новый Уренгой",
+  "name": "Поликлиника",
+  "variants": [
+   {
+    "label": "Белый RAL 9003",
+    "src": "img/objects/10-1.webp"
+   },
+   {
+    "label": "Бирюзовый RAL 5018",
+    "src": "img/objects/10-2.webp"
+   },
+   {
+    "label": "Графит RAL 7024",
+    "src": "img/objects/10-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "11",
+  "city": "Сургут",
+  "name": "Налоговая инспекция",
+  "variants": [
+   {
+    "label": "Кассета-Х белый RAL 9010",
+    "src": "img/objects/11-1.webp"
+   },
+   {
+    "label": "Кассета-Х графит RAL 7024",
+    "src": "img/objects/11-2.webp"
+   },
+   {
+    "label": "Кассета-Х серебро RAL 9006",
+    "src": "img/objects/11-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "12",
+  "city": "Салехард",
+  "name": "Аэропорт",
+  "variants": [
+   {
+    "label": "Белый RAL 9016",
+    "src": "img/objects/12-1.webp"
+   },
+   {
+    "label": "Графит RAL 7024",
+    "src": "img/objects/12-2.webp"
+   },
+   {
+    "label": "Серебро RAL 9006",
+    "src": "img/objects/12-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "13",
+  "city": "Челябинск",
+  "name": "Паркинг РМК",
+  "variants": [
+   {
+    "label": "Белый RAL 9016 ламели графит RAL 7024",
+    "src": "img/objects/13-1.webp"
+   },
+   {
+    "label": "Графит RAL 7024 ламели медь",
+    "src": "img/objects/13-2.webp"
+   },
+   {
+    "label": "Медь",
+    "src": "img/objects/13-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "14",
+  "city": "Челябинск",
+  "name": "Паркинг РМК, перфорированный короб",
+  "variants": [
+   {
+    "label": "Короб 400 перф белый RAL 9016 ламели графит RAL 7024",
+    "src": "img/objects/14-1.webp"
+   },
+   {
+    "label": "Короб 400 перф графит RAL 7024 ламели медь",
+    "src": "img/objects/14-2.webp"
+   },
+   {
+    "label": "Короб 400 перф медь",
+    "src": "img/objects/14-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "15",
+  "city": "Верхняя Пышма",
+  "name": "Паркинг",
+  "variants": [
+   {
+    "label": "Белый RAL 9016",
+    "src": "img/objects/15-1.webp"
+   },
+   {
+    "label": "Графит RAL 7024",
+    "src": "img/objects/15-2.webp"
+   },
+   {
+    "label": "Тип2 RAL 7047 RAL 9016",
+    "src": "img/objects/15-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "16",
+  "city": "Надым",
+  "name": "Центр единоборств «Северный характер»",
+  "variants": [
+   {
+    "label": "Белый",
+    "src": "img/objects/16-1.webp"
+   },
+   {
+    "label": "Красный RAL 3000",
+    "src": "img/objects/16-2.webp"
+   },
+   {
+    "label": "Серый RAL 7035",
+    "src": "img/objects/16-3.webp"
+   }
+  ]
+ },
+ {
+  "id": "17",
+  "city": "Екатеринбург",
+  "name": "БЦ «Мельковский»",
+  "variants": [
+   {
+    "label": "Белый RAL 9016",
+    "src": "img/objects/17-1.webp"
+   },
+   {
+    "label": "Светло-серый RAL 7047",
+    "src": "img/objects/17-2.webp"
+   },
+   {
+    "label": "Терракота RAL 2013 графит RAL 7043",
+    "src": "img/objects/17-3.webp"
+   }
+  ]
+ }
+]
